@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mis gastos</title>
+    <link href="css/tabla_gris.css" rel="stylesheet" type="text/css">
+    <link href="css/tabla_responsiva.css" rel="stylesheet" type="text/css">
+    <link href="css/tabla_fuente.css" rel="stylesheet" type="text/css">
+    <!style>
+    <!thead {
+    font-weight: bold;
+    background-color: rgb(133,193,233);
+    }
+    tbody {
+    background-color: rgb(240,243,242);
+    font-size: 95%;
+    font-style: italic;
+    border: 1px solid rgb(190,190,190);
+    }
+    tfoot {
+    background-color: rgb(249,135,78);
+    font-weight: bold;
+    }>
+    <!/style>
+</head>
+<body>
+<h2>Ejemplo de tabla anidada</h2>
+<table id="tabla1">
+    <tr>
+        <th>título1</th>
+        <th>título2</th>
+        <th>título3</th>
+    </tr>
+    <tr>
+        <td id="nested">
+            <table id="tabla2">
+                <tr>
+                    <td>celda1 tabla2</td>
+                    <td>celda2 tabla2</td>
+                    <td>celda3 tabla2</td>
+                </tr>
+            </table>
+        </td>
+        <td>celda2</td>
+        <td>celda3</td>
+    </tr>
+    <tr>
+        <td>celda4</td>
+        <td>celda5</td>
+        <td>celda6</td>
+    </tr>
+</table>
+</br>
+</br>
+</br>
+
+
+
+<h2>Mi historial de gastos</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th id="compra">Compra</th>
+        <th id="ubicacion">Ubicación</th>
+        <th id="fecha">Fecha</th>
+        <th id="evaluacion">Revisión</th>
+        <th id="costo">Costo ($)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th id="corte de cabello">Corte de cabello</th>
+        <td headers="ubicacion de la peluquería">Peluquería</td>
+        <td headers="fecha del corte de cabello">12/09</td>
+        <td headers="evaluacion del corte">Gran idea</td>
+        <td headers="costo del corte">$30</td>
+    </tr>
+    </tbody>
+</table>
+</br>
+</br>
+</br>
+
+
+
+<h2>Mi historial de gastos completo</h2>
+<table>
+    <caption> Cómo elegí gastar mi dinero </caption>
+    <thead>
+    <tr>
+        <th> Compra </th>
+        <th> Lugar </th>
+        <th> Fecha </th>
+        <th> Evaluación </th>
+        <th> Costo ($) </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td> Corte de cabello </td>
+        <td> Peluquería </td>
+        <td>12/09/2020</td>
+        <td> Gran idea </td>
+        <td>$30</td>
+    </tr>
+    <tr>
+        <td> Sushi </td>
+        <td> Restaurante </td>
+        <td>12/09/2020</td>
+        <td> Arrepentimiento </td>
+        <td>$18</td>
+    </tr>
+    <tr>
+        <td> Zapatos </td>
+        <td> Zapatería </td>
+        <td>13/09/2020</td>
+        <td> Mucho arrepentimiento </td>
+        <td>$65</td>
+    </tr>
+    <tr>
+        <td> Pasta de dientes </td>
+        <td> Supermercado </td>
+        <td>13/09/2020</td>
+        <td> Bien </td>
+        <td>$5</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="4">Total</td>
+        <td>$118</td>
+    </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
