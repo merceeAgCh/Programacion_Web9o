@@ -3,11 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <title>Practica3</title>
+    <link href="css/tabla_responsiva.css" rel="stylesheet" type="text/css">
+    <link href="css/tabla_fuente.css" rel="stylesheet" type="text/css">
+    <link href="css/tabla_color.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
     <h1><strong>Lo que he aprendido hasta el momento.</strong></h1>
+    <p> La siguiente tabla resume algunos de los elementos del
+    <strong> "Lenguaje de marcas de hypertexto"<br>HTML</strong>,
+    que hemos aprendido hasta el momento. A continuación,
+    se muestran algunos ejemplos de <br>tablas creadas a
+    partir de las etiquetas HTML.</p>
 </header>
+<br>
+<br>
+<table id="tabla1">
+    <caption> Elementos de HTML que he aprendido hasta ahora</caption>
+    <thead>
+    <tr>
+        <th> Elemento </th>
+        <th> Descripción </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td id="animada"> html</td>
+        <td> Es el contenedor para todos los elementos de un documento.</td>
+    </tr>
+    <tr>
+        <td> head </td>
+        <td> Contiene el título e información relacional acerca del documento. </td>
+    </tr>
+    <tr>
+        <td> title </td>
+        <td> Provee un título para el documento. </td>
+    </tr>
+    <tr>
+        <td> body </td>
+        <td> Es la sección donde se encuentra el contenido del documento. </td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<strong><h2>Modificando la tabla anterior.</h2></strong>
+<br>
+<p>Ahora hemos realizado unas cuantas modificaciones a la tabla anterior.
+    Para darle una mejor presentación a la información utilizamos los elementos
+    <i>tbody y colspan.</i></p>
+<br>
+<table id="tabla2">
+    <caption> Elementos que he aprendido hasta ahora. </caption>
+    <thead>
+    <tr>
+        <th id="compra"> Elemento </th>
+        <th id="ubicacion"> Descripción </th>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong> El elemento raíz.</strong></td>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td> html</td>
+        <td> Es el contenedor para todos los elementos de un documento. </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong> Metadatos del documento.</strong></td>
+    </tr>
+    <tr>
+        <td> head </td>
+        <td> Contiene el título e información relacional acerca del documento. </td>
+    </tr>
+    <tr>
+        <td> title </td>
+        <td> Provee un título para el documento. </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong> Secciones.</strong>
+    </tr>
+    <tr>
+        <td> body </td>
+        <td> Es la sección donde se encuentra el contenido del documento. </td>
+    </tr>
+    <tr>
+        <td> h1-h6 </td>
+        <td> Representa un encabezado. </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong> Agrupación del contenido.</strong></td>
+    </tr>
+    <tr>
+        <td> p </td>
+        <td> Representa un párrafo. </td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<br><br>
+
+<strong><h2>Una tabla más.</h2></strong>
+<p>Finalmente, tenemos un ejemplo de creación de tablas donde agrupamos columnas
+   ya que la<br> semántica de la tabla lo permite y les dará una mejor
+   presentación a los datos.</p>
+<br>
+<table>
+    <thead>
+    <tr>
+
+        <th colspan="3">Mujeres</th>
+        <th colspan="3">Hombres</th>
+    </tr>
+    <tr>
+        <th><strong>Altura(cm)</strong></th>
+        <th><strong>Objetivo(kg)</strong></th>
+        <th><strong>Limites(kg)</strong></th>
+        <th><strong>Altura(cm)</strong></th>
+        <th><strong>Objetivo(kg)</strong></th>
+        <th><strong>Limites(kg)</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>155</td>
+        <td>46.6</td>
+        <td>43-52.3</td>
+        <td>168</td>
+        <td>65.7</td>
+        <td>59.8-71.6</td>
+    </tr>
+    <tr>
+        <td>157</td>
+        <td>48.9</td>
+        <td>43.9-53.9</td>
+        <td>170</td>
+        <td>66.7</td>
+        <td>60.7-63</td>
+    </tr>
+    <tr>
+        <td>160</td>
+        <td>50.3</td>
+        <td>45.3-55.3</td>
+        <td>173</td>
+        <td>68</td>
+        <td>61.6-73.9</td>
+    </tr>
+    <tr>
+        <td>163</td>
+        <td>51.7</td>
+        <td>46.2-56.7</td>
+        <td>175</td>
+        <td>68.9</td>
+        <td>62.5-75.2</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
 
 </body>
 </html>
