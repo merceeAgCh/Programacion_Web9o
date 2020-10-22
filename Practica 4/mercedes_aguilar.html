@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 4</title>
+    <!--Estilos CSS al html -->
+    <link href="CSS/estilo_a_tabla.css" rel="stylesheet" type="text/css">
+    <link href="CSS/estilo_estructuras.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<p>A partir de las etiquetas HTML podemos crear diferentes estructuras algunas <br>
+    sobre el texto como encabezados:</p>
+
+<!--encabezados h-->
+<h1>Encabezado con h1</h1>
+<h2>Encabezado con h1</h2>
+<h3>Encabezado con h1</h3>
+<p>listas con distintas enumeraciones</p>
+<!--Listas-->
+<ol>
+    <li>
+        Perro.
+    </li>
+    <li>
+        Gato.
+    </li>
+    <li>
+        Ratón.
+    </li>
+</ol>
+<ol type="a">
+    <li>
+        Perro.
+    </li>
+    <li>
+        Gato.
+    </li>
+    <li>
+        Ratón.
+    </li>
+</ol>
+<ol type="I">
+    <li>
+        Perro.
+    </li>
+    <li>
+        Gato.
+    </li>
+    <li>
+        Ratón.
+    </li>
+</ol>
+<!--Parrafos-->
+<p>Párrafos con diferentes alineaciones:</p>
+<p align="left">Párrafo alineado a la izquierda.</p>
+<p align="center">Párrafo alineado al centro.</p>
+<p align="right">Párrafo alineado a la derecha.</p>
+<!--letras-->
+<p>Letras en <strong>negritas</strong>,<i>cursivas</i>, <u>subrayadas</u>, subíndices (H<sub>2</sub>O), superíndices (3 <sup>2</sup>),<br>
+    entre otros y otras estructuras como tablas, imágenes, enlaces, etc.</p>
+
+<p> Agregando imágenes, podemos tener una figura como la siguiente, la cual<br>
+    muestra el mensaje "Logotipo de la universidad" al posicionar el cursor sobre ella,<br>
+    en el atributo alt tiene “Logo ucad” y tiene un ancho de 400px y una altura de<br>
+    200px.</p>
+<!--Imagenes -->
+<img src="IMAGENES/logo_ucad.png" alt="Logo ucad" height="200px" width="400px">
+<p>Logotipo de la universidad ucad.</p>
+
+<!-- Tablas-->
+<p>En cuanto al manejo de tablas tenemos la siguiente, la cual se elabora a partir de<br>
+    los tres bloques que forman las tablas (thead, tbody y tfoot). Algunas de sus<br>
+    celdas tienen el formato de encabezado utilizando th y otras están unidas <br>
+    mediante colspan y rowspan.</p>
+<table>
+    <caption>Información de los departamentos.</caption>
+    <thead>
+    <tr>
+        <th><strong>Jefe de departamento</strong></th>
+        <th><strong>Jefe de sección.</strong></th>
+        <th><strong>Empleado.</strong></th>
+        <th><strong>Edad Empleado.</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">Juan Alberto Chan.</td>
+        <td>Martin López.</td>
+        <td>Maité Suárez.</td>
+        <td>55</td>
+
+    </tr>
+    <tr>
+        <td>Luis Morales.</td>
+        <td>Mateo Carral</td>
+        <td rowspan="2">33.</td>
+
+    </tr>
+    <tr>
+       <td>Diana Rodríguez.</td>
+       <td>Carlos Hernández.</td>
+       <td>Alberto Fernández.</td>
+
+    </tr>
+    <tr>
+        <td colspan="2">Luis Pérez</td>
+        <td>Diego Gutiérrez.</td>
+        <td>44.</td>
+    </tr>
+    <tfoot>
+    <tr>
+        <td>Los empleados pueden llegar a ser jefes
+            y todo jefe fue un empleado</td>
+    </tr>
+</tfoot>
+    </tbody>
+</table>
+<p>
+    Como se ha visto en clase, en HTML podemos crear solo la estructura de la<br> página web y
+    mediante otras herramientas mejorar el diseño. En este ejemplo <br> usaremos dos archivos con
+    extensión .css para mejorar un poco la apariencia de <br> la página web realizando esta
+    tarea mediante la declaración de enlaces hacia los <br> documentos estilo_a_tablas.css
+    y estilo_estructuras.css.
+</p>
+</body>
+</html>
