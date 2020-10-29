@@ -1,0 +1,57 @@
+html{
+	font: 130% sans-serif
+}
+body 
+{
+background-image: url('gris_3.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed
+}
+p {
+  line-height: 200%;
+  
+}
+h1 { 
+			color:  #b80606; 
+}
+h2 { 
+			color:  #546af9; 
+}
+h3 { 
+			color:    #dcd506; 
+}
+h4 { 
+			color:     #028e2b; 
+}
+h5 { 
+			color:     #8e0284; 
+}
+h6 { 
+			color:     #a2b4b8; 
+}
+/* Estilo para la tabla*/
+
+table {
+			border: 3px solid rgb( 164, 4, 96);
+			font: 130% sans-serif;
+
+}
+thead {
+			font-weight: bold;
+			background-color: rgb(243,246,46);
+}
+tbody {
+			background-color: rgb(240,243,242);
+			font-size: 95%;
+
+}
+tfoot {
+			background-color: rgb(199,250,96);
+			font-style: italic;
+}
+td {
+		text-align: center;
+		border: 3px solid rgb(  14, 124, 249 );
+}
+th{		border: 3px solid rgb(   5, 143, 19  );
+}

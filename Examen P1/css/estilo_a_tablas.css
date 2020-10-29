@@ -1,0 +1,25 @@
+
+table {
+			border: 3px solid rgb( 164, 4, 96);
+			font: 130% sans-serif;
+			
+}
+thead {
+			font-weight: bold;
+			background-color: rgb(243,246,46);
+}
+tbody {
+			background-color: rgb(240,243,242);
+			font-size: 95%;
+			
+}
+tfoot {
+			background-color: rgb(199,250,96);
+			font-style: italic;
+}
+td {
+		text-align: center;
+		border: 3px solid rgb(  14, 124, 249 );
+}
+th{		border: 3px solid rgb(   5, 143, 19  );
+}
